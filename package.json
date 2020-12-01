@@ -1,0 +1,25 @@
+{
+  "name": "jest-api-frontend-tasting-example",
+  "version": "1.0.0",
+  "description": "jest api and frontend testing example using github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadeghmohebbi/jest-api-frontend-tasting-example.git"
+  },
+  "keywords": [
+    "Jest"
+  ],
+  "author": "Sadegh Mohebbi <mohebbi.sadegh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sadeghmohebbi/jest-api-frontend-tasting-example/issues"
+  },
+  "homepage": "https://github.com/sadeghmohebbi/jest-api-frontend-tasting-example#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
