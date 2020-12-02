@@ -1,25 +1,24 @@
 {
   "name": "jest-api-frontend-tasting-example",
   "version": "1.0.0",
-  "description": "jest api and frontend testing example using github",
+  "description": "Jest Api Testing Example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sadeghmohebbi/jest-api-frontend-tasting-example.git"
-  },
-  "keywords": [
-    "Jest"
-  ],
-  "author": "Sadegh Mohebbi <mohebbi.sadegh@gmail.com>",
+  "repository": "https://github.com/sadeghmohebbi/jest-api-frontend-tasting-example.git",
+  "author": "sadegh mohebbi <mohebbi.sadegh@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sadeghmohebbi/jest-api-frontend-tasting-example/issues"
-  },
-  "homepage": "https://github.com/sadeghmohebbi/jest-api-frontend-tasting-example#readme",
+  "private": true,
   "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "node-fetch": "^2.6.1"
   }
 }

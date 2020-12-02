@@ -1,1 +1,1 @@
-# jest-api-frontend-tasting-example
+# Jest API Testing Example
